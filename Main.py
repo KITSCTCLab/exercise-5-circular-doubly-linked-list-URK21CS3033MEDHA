@@ -6,7 +6,7 @@ class Node:
 
 
 class DoublyCircularLinkedList:
-    def _init_(self):
+    def __init__(self):
         self.count = 0
         self.front = None
         self.end = None
